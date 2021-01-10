@@ -1,0 +1,265 @@
+$color-primario: #30374A;
+$color-secundario: #BBE1E4;
+$color-terciario: #E6F0F0;
+
+$font-titulos: 'Faustina', serif;
+$font-cuerpo: 'Lato', sans-serif;
+
+.header {
+    border-bottom: 1px solid $color-primario;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    text-align: center;
+    color: $color-primario;
+    font-family: $font-titulos;
+    padding-top: 0px;
+}
+
+header nav a {
+    text-decoration: none;
+    font-family: $font-titulos;
+    font-size: 18px;
+    color: $color-primario;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.navbar-last-item {
+    margin-right: 0px;
+}
+
+.navbar {
+    text-align: center;
+    margin: 20px 20px 20px 20px ;
+    padding: 30px 30px;
+}
+
+.navbar a:hover {
+    color: $color-primario;
+    background-color: $color-secundario;
+    border-radius: 20px;
+}
+
+/* TITULOS Y TEXTOS */
+
+h2 {
+    color: $color-primario;
+    font-family: $font-titulos;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    color: $color-primario;
+    font-family: $font-titulos;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+}
+
+.p {
+    font-family: $font-cuerpo;
+    color: $color-primario;
+    text-align: left;
+    font-size: 16px;
+}
+
+.parrafo {
+    width: 500px;
+    margin-left: 100px;
+    line-height: 1.3;
+}
+
+.articulo {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+/* IMAGENES */
+
+.imagen {
+    width: 500px;
+}
+
+/* FRASES */
+
+.frases {
+    padding: 20px;
+    border-left: $color-primario solid 1px;
+}
+
+.f1 {
+    margin-left: 10%;
+}
+
+.f2 {
+    margin-left: 40%;
+}
+
+.f3 {
+    margin-left: 20%;
+}
+
+.f4 {
+    margin-left: 60%;
+}
+
+/* OPINIONES */
+
+.opiniones {
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.fulanos {
+    width: 30%;
+    padding: 20px;
+}
+
+/* ADAPTACIONES */
+
+.adaptaciones {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.parrafo-adap {
+    line-height: 1.3;
+    font-family: $font-cuerpo;
+    color: $color-primario;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.teatro {
+    background-color: #F2AA6B;
+}
+
+.cine {
+    background-color: #BBE1E4;
+}
+
+.libro-mundo {
+    background-color: #F2937E;
+}
+
+
+
+/* FORMULARIO */
+
+form {
+    /* text-align: center; */
+    font-family: $font-cuerpo;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.enviar-mensaje {
+    margin: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* form input {
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: #30374A 1px solid;
+
+} */
+
+.form-input {
+    padding: 10px 20%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-input input[type="text"], .form-input input[type="email"] {
+    background-color: #ffffff;
+    height: 40px;
+    border-radius: 20px;
+    border: $color-primario 1px solid;
+    padding: 7px;
+    font-size: 14px;
+    box-shadow: none;
+}
+
+.form-input input[type="text"]:invalid,
+.form-input input[type="email"]:invalid {
+    border: #d55c5f 1px solid;
+    color: #d55c5f;
+    box-shadow: none;
+}
+
+.form-input label {
+    margin-bottom: 8px;
+    color: $color-primario;
+}
+
+.boton-enviar {
+    background-color: $color-primario;
+    height: 40px;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 7px;
+    font-size: 14px;
+    box-shadow: none;
+    box-decoration-break: none;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: $color-primario;
+    padding: 5% 3%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.copy {
+    font-family: $font-cuerpo;
+    font-size: 20px;
+    color: $color-terciario;
+    text-align: center;
+
+}
+
+.textofooter {
+    font-family: $font-cuerpo;
+    font-size: 16px;
+    color: $color-terciario;
+    text-align: right;
+}
+
+.redes a {
+    background-color: $color-primario;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
